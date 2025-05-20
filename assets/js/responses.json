@@ -1,0 +1,40 @@
+{
+    "hello": "Hello! Welcome to our Child Development Center. How can I assist you today?",
+    "hi": "Hi there! How can I help you with you?",
+    
+    "admission": "We accept children from 6 to 13 and offer a simple enrollment process. You can <a href='/enroll' target='_blank'>apply online</a> or <a href='https://maps.app.goo.gl/iXuW8WcwxJthN2X66' target='_blank'>visit us</a> for a tour.",
+    "requirements": "For enrollment, we require birth certificates, medical records, and emergency contact details, <a href='/enroll' target='_blank'>Click here to see full details</a>.",
+    "fees": "Our tuition and fees vary based on the program and schedule.",
+    "payment options": "We accept various payment methods, including online payments and installment plans.",
+    
+    "programs": "We offer early childhood education, daycare, and after-school care.",
+    "daily schedule": "A typical day includes learning activities, playtime, meals, and rest periods.",
+    "curriculum": "Our curriculum focuses on cognitive, social, and motor skill development through play-based learning.",
+    
+    "safety": "We prioritize safety with secure entry systems, trained staff, and health protocols.",
+    "health protocols": "We follow strict health guidelines, including regular sanitation, temperature checks, and emergency medical procedures.",
+    "food and nutrition": "We provide balanced meals and snacks, accommodating dietary restrictions and allergies.",
+    
+    "teachers": "Our caregivers and educators are highly qualified and experienced in early childhood development.",
+    "staff qualifications": "All our staff members are certified in child development and first aid.",
+    
+    "parent portal": "Our <a href='/guardian' target='_blank'>parent portal</a> allows you to check attendance, progress reports, and daily activities.",
+    "teacher portal": "Our <a href='/teacher' target='_blank'>teacher portal</a> allows you to manage students and thier guardians, teacher management, announcement, attendance, grades, and AI recommendation.",
+    "communication": "We keep parents updated through newsletters, messaging, and meetings.",
+    
+    "student progress": "Teachers can track each child's progress through our online portal and generate progress reports.",
+    "attendance tracking": "Attendance is automatically recorded in our system. You can check your child's attendance via the parent portal.",
+    "report cards": "Guardians can access student report cards through our online system.",
+    
+    "guardian login": "To access the guardian portal, please visit <a href='#' target='_blank'>this link</a>.",
+    "teacher login": "Teachers can log in to manage student records <a href='#' target='_blank'>here</a>.",
+    
+    "contact": "You can reach us at <a href='mailto:support@childcenter'>support@childcenter.com</a> or call (+63) 987-456-6543.",
+    "email": "You can reach us at <a href='mailto:support@childcenter'>support@childcenter.com</a> or call (+63) 987-456-6543.",
+    "facebook": "You can visit our facebook page <a href='https://www.facebook.com' target='_blank'>here</a>",
+
+    "thanks": "You're welcome! Let me know if you have any more questions.",
+    "bye": "Thank you for reaching out. Have a wonderful day!",
+    
+    "default": "I'm sorry, I didn’t quite understand that. Could you please clarify or ask in a different way?"
+}

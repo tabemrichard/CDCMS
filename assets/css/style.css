@@ -1,0 +1,808 @@
+body {
+    overflow: auto !important; 
+  }
+  
+  /* HomePage */
+  .home-container {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    h2.custom-bold {
+    font-size: 36px;
+    font-weight: bold;
+    text-indent: 60px;
+  }
+    h1.custom-bold {
+    text-indent: 65px;
+    color:rgb(14, 67, 168);
+    font-size: 72px;  
+    text-shadow: 0 0 2px #000000;
+  }
+  .about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .about-section h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:rgb(14, 67, 168);
+    text-shadow: 0 0 2px #000000;
+  }
+  
+  .about-section p {
+    font-size: 16px;
+  }
+  
+  .mission-vision {
+    display: flex;
+    gap: 20px;
+  }
+  
+  
+  .mission-vision .card {
+    background-color: #2A5A7F;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 320px;
+  }
+  .mission-vision p1 { 
+    margin: 40px 10px;
+  }
+  
+    @media (max-width: 768px) {
+  .mission-vision {
+      flex-direction: column;
+      align-items: center;
+  }
+  }
+  
+  .teachers-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+    
+  .teachers-section h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(14, 67, 168);
+    text-shadow: 0 0 2px #000000;
+  }
+    
+  .teachers-section p {
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+  }
+    
+  .teachers-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+    
+  .teachers-images .card {
+    color: #000;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+    
+  .teachers-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+    
+  .teachers-images p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+  }
+    
+  @media (max-width: 768px) {
+    .teachers-images {
+      flex-direction: column;
+      align-items: center;
+    }
+    .teachers-images .card {
+      width: 80%;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .see-more-btn {
+    margin-left: 150px;
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #0e43a8;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3.5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px#00000042;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #002f73;
+  }
+  .read-more-btn {
+    margin-left: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #0e43a8;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3.5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px#00000042;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #002f73;
+  }
+  
+  .custom-bold {
+    font-weight: bold;
+  }
+  
+  .font-style {
+    font-size: large;   
+  }
+  
+  
+  /* TeacherGuardianLoginSignIn */
+  .mainCDC {
+    width: 100%;
+    height: auto;
+  }
+  
+  .signin-sub-text {
+    font-weight: 600;
+  }
+  
+  .left-img {
+    background-color: #2a5a7f;
+    padding: 25px 80px;
+  }
+  
+  /* .text-center{
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: large;
+  } */
+  
+  .text-link{
+    font-size: small;
+  }
+  
+  .child-text{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: x-large;
+    margin: 50px 0px;
+  }
+  
+  .login-form {
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .signin-form {
+    padding: 0px 20px;
+    width: 50%;
+  }
+   
+  .loginForm {
+    padding: 0px 50px;
+  }
+  
+  .signinForm {
+    padding: 0px 50px;
+  }
+  
+  .loginForm {
+    padding: 0px 50px;
+  }
+  
+  .teacher-container {
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    margin: 0px 10%;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  /* .form-control {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  } */
+  
+  /* .btn-primary {
+    width: 100%;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  } */
+
+  .remember-me {
+    display: flex;
+    align-items: center;
+  }
+  
+  .remember-me input {
+    margin-right: 10px;
+  }
+  
+  .forgot-password {
+    text-align: right;
+  }
+  
+  .cdcms-logo {
+    margin: auto 10px;
+  }
+  
+    /* Navbar */
+  .navbar {
+    margin: 0px 10%;
+  }
+  
+  .navbar-nav {
+    font-size: small;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #060303;
+  }
+  
+  .navbar-nav .side-link {
+    color: #000000;
+    margin: 0 10px;
+  }
+  
+  .nav-link.side-link{
+    padding: 0px;
+    color: #f7f7f7;
+    font-size: 14px;
+    margin: 0 0 0 8px;
+  }
+  
+  .nav-link.side-link:hover {
+    color: #f7f7f7;
+  }
+  
+  /* .btn-enroll-now {
+    background-color: #042752;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .btn-enroll-now .nav-link {
+    color: white !important;
+  } */
+  
+  a.nav-link {
+    padding: 2px;
+  }
+  
+    /* NavBar */
+  .navBar {
+    top: 0.45rem;
+    background-color: #0077b6;
+    z-index: 100;
+    display: flex;
+    height: 3.20rem;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 11px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    padding-left: 1.3rem;
+    padding-right: 1.2rem;
+    margin: 0.45rem 1rem;
+  }
+  
+  .NavBar-title {
+    padding-bottom: 12px;
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  .avatar-initials-min {
+    width: 40px;
+    height: 40px;
+    background: #75e6da;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    
+  }
+  .btn-none {
+    background: none;
+    border: none;
+  }
+  
+  .avatar-img {
+    position: relative;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .avatar-img:hover {
+    background-color: #a0f0e6;
+  }
+  
+  /* sideBar */
+  .wrapper {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .navbar-with-sidebarOpen {
+    margin-left: 17rem;
+    padding-left: 1.3rem;
+    padding-right: 1.2rem;
+    margin-right: 1rem;
+    transition: 300ms ease;
+  }
+  
+  .navbar-with-sidebarClose {
+    transition: 300ms ease;
+  }
+  
+  .offcanvas-start.show {
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-width: 16rem;
+    width: 16rem;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 500ms;
+    box-shadow: inset -1px 0 0 rgba(18, 38, 63, 0.05);
+    background-color: #042752;
+    transition: 300ms ease;
+    scrollbar-width: none;
+  }
+  
+  .offcanvas-start.hide {
+    transition: 500ms ease;
+  }
+  
+  .offcanvas-header {
+    width: 100%;
+    padding: 8px 8px 0px 8px;
+  }
+  
+  .offcanvas-title {
+    color: #f7f7f7;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem 0 0 0;
+    flex: 1 1 auto;
+    background-color: transparent;
+    text-decoration: none;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+  }
+  
+  .navBar-button-text {
+    color: white;
+  }
+  
+  .navBar-text {
+    padding: 5px;
+  }
+  
+  .sideBar-nav {
+    display: block;
+    font-family: "Inter", sans-serif;
+    margin: 0px 16px;
+    /* padding: 0.6rem 1.5rem; */
+  }
+  
+  .sideBar-item {
+    color: #ffffff;
+    padding: 0.6rem 0px;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-with-sidebarOpen {
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+      width: 93%;
+      margin: 0 auto;
+      margin-top: 0.45rem;
+    }
+    .sidebar-toggler.toggle-show {
+      position: absolute;
+      z-index: 100;
+      color: #f7f7f7;
+      width: 50px;
+      font-weight: normal;
+      font-size: 16px;
+      display: inline-block;
+      background-color: transparent;
+      border: 1px solid transparent;
+      text-decoration: none;
+      top: 0;
+      padding: 6px 12px;
+      margin-top: 16px;
+      margin-left: 8px;
+    }
+    .navbar-with-sidebarClose {
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+      width: 93%;
+      margin: 0 auto;
+      margin-top: 0.45rem;
+    }
+  }
+  
+  @font-face {
+    font-family: "feather";
+    src: url("./components/private/fonts/feather.eot?29jl7i");
+    src: url("./components/private/fonts/feather.eot?29jl7i#iefix") format("embedded-opentype"), url("./components/private/fonts/feather.ttf?29jl7i") format("truetype"), url("./components/private/fonts/feather.woff?29jl7i") format("woff"), url("./components/private/fonts/feather.svg?29jl7i#feather") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block; 
+  }
+  
+  .fe-menu:before {
+    content: "";
+    color: #f7f7f7;
+  }
+  
+  .fe-x:before {
+    content: ""; 
+  }
+  
+  .sidebar-toggler {
+    display: none;
+  }
+  
+  .fe {
+    font-family: "feather" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .logo-style {
+    text-align: center;
+    padding-bottom: 13.2px;
+  }
+  
+  .div-sideBar-name {
+    margin-left: 16px;
+    font-size: 11.5px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #cae9ff;
+    padding: 24px 0px 4px 0px;
+  }
+  
+  .sideBar-item:hover {
+    background: #2A5A7F;
+    color: #d1e8ff; 
+    transition: 500ms ease;
+    border-radius: 5px;
+  }
+  
+  .sideBar-item.active {
+    background: #2A5A7F;
+    color: #d1e8ff; 
+    transition: 500ms ease;
+    border-radius: 5px;
+  }
+  
+  .nav-item {
+    padding: 0.5625rem 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+   /* Teacher Dashboard */
+  .admin-body {
+    transition: margin-left 500ms ease;
+  }
+  
+  .admin-body.with-sidebar {
+    margin-left: 17rem;
+    margin-top: 85px;
+  }
+  
+  .admin-body.without-sidebar {
+    margin-left: 25px;
+    margin-top: 85px;
+  }
+  
+  .td-head {
+    margin: 25px 25px;
+    font-size: 28px;
+    font-weight: 800;
+    text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .td-title {
+    margin: 25px 50px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  /* Enroll Now Page */
+.bg-enrollment {
+  background-color: #eeeeee;
+}
+
+  /* .enroll-header {
+    background-color: #042752;
+    color: #fff;
+  }
+  
+  .enroll-header-img {
+    margin: 10px;
+  }
+  
+  .enroll-header-text {
+    margin: 10px;
+  }
+  
+  .enroll-header-ep-text {
+    font-size: xx-large;
+  }
+  
+  .enroll-body {
+    margin: 20px 50px;
+    background-color: #D9D9D9;
+  }
+  
+  .enroll-body-div {
+    padding: 0px 30px;
+    margin-bottom: 28px;
+  }
+   
+  .enroll-ftext{
+    padding-top: 15px;
+  }
+  
+  .enroll-etext{
+    padding-bottom: 10px;
+  }
+  
+  .enroll-body-title {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 4px;
+  }
+  
+  .enroll-sub-text {
+    margin: 0px;
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+  
+  .enroll-body-text-input {
+    padding: 0px 10px;
+    width: 23%;
+  }
+  
+  .enroll-input-field {
+    width: 100%;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .enroll-input-field[type="date"],
+  .enroll-input-field[type="select"] {
+    height: 28px;
+  }
+  
+  .enroll-input-field:focus {
+    outline-color: #007bff;
+  }
+  
+  .enroll-group {
+    margin-bottom: 12px;
+  }
+  
+  .enroll-text-sub {
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 600;
+  } */
+  
+  .offcanvas-backdrop {
+    display: none !important;
+  }
+  
+  /* public style table*/
+  .teacher-div-table {
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .table-head-columns {
+    --bs-table-bg: #2A5A7F;
+    --bs-table-color: #fff;
+    font-size: 15px;
+  }
+  
+  /* public button */
+  .btn-edit-table {
+    border: none;
+    color: #fff;
+    background-color: #2A5A7F;
+    font-size: 20px;
+    padding: 0px 5px;
+  }
+  
+  .btn-delete-table {
+    border: none;
+    color: #fff;
+    background-color: rgb(220, 0, 0);
+    font-size: 20px;
+    padding: 0px 5px;
+  }
+  
+  .td-btn {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+  /* teacher announcement page */
+  .announcement-title {
+    margin-right: 50px;
+  }
+  
+  .announcement-create-btn {
+    width: 250px;
+    height: 30px;
+    padding: 0px;
+  }
+  
+  .announcement-modal-container {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 8888;
+  }
+  
+  .announcement-modal-body {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 0px 10%;
+    z-index: 9999 !important;
+    position: relative;
+  }
+  
+  .announcement-tbl-center {
+    align-content: center;
+  }
+  
+  /* guardian announcement page */
+  .g-ann-container {
+    margin: 0px 10%;
+  }
+  
+  .g-ann-head {
+    margin-left: 15px;
+  }
+  
+  .g-ann-title {
+    font-weight: 600;
+    font-size: x-large;
+  }
+  
+  .g-ann-date-time {
+    font-size: x-small;
+    margin-left: 15px;
+  }
+  
+  .g-ann-desc {
+    font-size: medium;
+    margin-left: 45px;
+  }
+  
+  /* Guardian teacher profile */
+  .teacher-profile-infos {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .teacher-profile-container {
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+  
+  .teacher-profile-img {
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    margin-right: 20px;
+  }
+  
+  .teacher-profile-body-infos {
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    margin: 0px 20px;
+  }
+  
+  .teacher-profile-info {
+    margin-left: 25px;
+  }
+  
+  /* Guardian Requirement Page */
+  .guardian-requirement-container {
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    margin: 30px 20px;
+    margin-right: 20%;
+  }
